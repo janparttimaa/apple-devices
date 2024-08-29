@@ -18,8 +18,13 @@ This script is suitable for corporate environments where you might have followin
 ## Preparation instructions
 Before you deploy this PowerShell-script, you need to do some preparations.
 
-### 1. Get the offline media of the "Apple Devices" -application from Microsoft Store
-TBA
+### Get the offline media of the "Apple Devices" -application from Microsoft Store
+1. Copy this address: https://apps.microsoft.com/detail/9np83lwlpz9k?hl=en-us&gl=FI
+2. Open [this site](https://store.rg-adguard.net/). Paste the address to this site and search in RP mode.
+3. Find the file that have ".msixbundle" -format. Click that to download it.
+4. Run the file on your antivirus-software just in case. If you don't get any warnings, file is then officially safe to use.
+5. Rename the file to "AppleDevices". File should look like this: AppleDevices.Msixbundle
+6. Add the installer to same folder where the installation script is. If you don't have folder, create one and put those two files to same folder.
 
-### 2. Add your corporate name to the installation script
-TBA
+### Add your corporate name to the installation script
+Open the PowerShell-script to Visual Studio Code or Notepad++. From row number 37 you will see variable $CorporateName that have placeholder called "Example Company". Replace the placeholder to your company name and safe the changes. For example, if your company name is "XYZ" script should look like this.
