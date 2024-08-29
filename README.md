@@ -16,10 +16,10 @@ This script is suitable for corporate environments where you might have followin
 - You want to make sure that installed "Apple Devices" -application will be updated automatically through Microsoft Store when it will be installed using offline installation media.
 
 ## Preparation instructions
-Before you deploy this PowerShell-script, you need to do some preparations.
+Before you deploy this PowerShell-script, you need to do some preparations:
 
-### Get the offline media of the "Apple Devices" -application from Microsoft Store
+### 1. Get the offline media of the "Apple Devices" -application from Microsoft Store
 TBA
 
-### Add your corporate name to the installation script
+### 2. Add your corporate name to the installation script
 TBA
