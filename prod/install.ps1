@@ -63,7 +63,7 @@ if (-not (Test-Path -Path $AppicationRegistryPath)) {
 }
 
 Set-ItemProperty -Path $AppicationRegistryPath -Name "ApplicationInstalled" -Value "Yes" -Type "String" -Force -Verbose
-Set-ItemProperty -Path $AppicationRegistryPath -Name "ScriptVersion" -Value "1.0" -Type "String" -Force -Verbose
+Set-ItemProperty -Path $AppicationRegistryPath -Name "ScriptVersion" -Value "1.0.0" -Type "String" -Force -Verbose
 
 Start-Sleep -Seconds 10 -Verbose
 
