@@ -25,7 +25,7 @@ Before you deploy this PowerShell-script, you need to do some preparations.
 3. Find the file that have ".msixbundle" -format. Click that to download it.
     ![Screenshot](/img/img%202.png)
      
-> **Note**
+> **Note**  
 > Your browser might warn you for unsafe download. You can ingnore it and just download the file. Example from Microsoft Edge:
 > ![Screenshot](/img/img%203.png)
 > ![Screenshot](/img/img%204.png)
