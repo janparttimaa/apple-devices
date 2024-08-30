@@ -27,10 +27,10 @@ Before you deploy this PowerShell-script, you need to do some preparations.
  
     ![Screenshot](/img/img%202.png)
      
-    > [!NOTE]
-    > Your browser might warn you for unsafe download. You can ingnore it and just download the file. Example from Microsoft Edge:
-    > ![Screenshot](/img/img%203.png)
-    > ![Screenshot](/img/img%204.png)
+> [!NOTE]
+> Your browser might warn you for unsafe download. You can ingnore it and just download the file. Example from Microsoft Edge:
+> ![Screenshot](/img/img%203.png)
+> ![Screenshot](/img/img%204.png)
 
 4. Run the file on your antivirus-software just in case. If you don't get any warnings, file is then officially safe to use.
 5. Rename the file to "AppleDevices". File should look like this:
