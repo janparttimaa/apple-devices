@@ -40,4 +40,8 @@ Before you deploy this PowerShell-script, you need to do some preparations.
 6. Add the installer to same folder where the installation script is. If you don't have folder, create one and put those two files to same folder.
 
 ### Add your corporate name to the installation script
-Open the PowerShell-script to Visual Studio Code. From row number 37 you will see variable $CorporateName that have placeholder called "Example Company". Replace the placeholder to your company name and safe the changes. For example, if your company name is "XYZ" script should look like this.
+Open the PowerShell-script to Visual Studio Code. From row number 37 you will see this variable: 
+<pre>$CorporateName</pre>
+This have placeholder called "**Example Company**". Replace the placeholder to your company name and safe the changes. For example, if your company name is "XYZ" script should look like this:
+
+![Screenshot](/img/img%206.png)
