@@ -34,7 +34,8 @@ Before you deploy this PowerShell-script, you need to do some preparations.
 
 4. Run the file on your antivirus-software just in case. If you don't get any warnings, file is then officially safe to use.
 5. Rename the file to "AppleDevices". File should look like this:
-<br>
+ 
+ 
     ![Screenshot](/img/img%205.png)
 6. Add the installer to same folder where the installation script is. If you don't have folder, create one and put those two files to same folder.
 
