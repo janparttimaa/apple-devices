@@ -51,6 +51,9 @@ This have placeholder called "**Example Company**". Replace the placeholder to y
 ![Screenshot](/img/img%206.png)
 
 ## Deploy prepared script to specific devices via Configuration Manager as an application
+> [!NOTE]
+> Deploy script as "Required" so it will be automatically installed to device and their users.
+>
 For this example, we will deploy the script to specific devices at fictional company XYZ uisng Configuration Manager. Needed settings that needs to be configured are following:
 
 ![Screenshot](/img/img%207.png)
