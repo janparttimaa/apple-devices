@@ -2,7 +2,7 @@
 PowerShell-script that will install "Apple Devices" -application using offline version of the installer.
 
 ## Background
-I created this PowerShell-script so I was able to deploy "Apple Devices" -application to dedicated and managed shared devices running Windows 10 or later that are only used for reinstalling iPhones and iPads. 
+I created this PowerShell-script so I was able to deploy "Apple Devices" -application to dedicated and managed shared devices running Windows 11 or later that are only used for reinstalling iPhones and iPads. 
 
 This script is suitable for corporate environments where you might have following situation:
 - Your managed Windows-devices are running Windows 11 or later.
