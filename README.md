@@ -5,7 +5,7 @@ PowerShell-script that will install "Apple Devices" -application using offline v
 I created this PowerShell-script so I was able to deploy "Apple Devices" -application to dedicated and managed shared devices running Windows 10 or later that are only used for reinstalling iPhones and iPads. 
 
 This script is suitable for corporate environments where you might have following situation:
-- Your managed Windows-devices are running Windows 10 or later.
+- Your managed Windows-devices are running Windows 11 or later.
 - Your managed Windows-devices are on [co-management](https://learn.microsoft.com/en-us/mem/configmgr/comanage/overview) so you are mananing these devices using Microsoft Intune and Microsoft Configuration Manager.
 - Your company is not yet ready to switch [client apps deployment workload](https://learn.microsoft.com/en-us/mem/configmgr/comanage/how-to-switch-workloads) from Configuration Manager to Intune so you are still ddeploying managed applications to employees to Software Center.
 - You are using [Shared PC mode](https://learn.microsoft.com/en-us/windows/configuration/shared-pc/shared-devices-concepts) on your shared Windows-devices.
@@ -49,3 +49,7 @@ Open the PowerShell-script to Visual Studio Code. From row number 37 you will se
 This have placeholder called "**Example Company**". Replace the placeholder to your company name and safe the changes. For example, if your company name is "XYZ" script should look like this:
 
 ![Screenshot](/img/img%206.png)
+
+## Deploy prepared script to specific devices via Configuration Manager as an application
+For this example, we will deploy the script to specific devices at fictional company XYZ uisng Configuration Manager. Needed settings that needs to be configured:
+
