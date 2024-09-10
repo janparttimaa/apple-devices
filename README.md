@@ -51,5 +51,5 @@ This have placeholder called "**Example Company**". Replace the placeholder to y
 ![Screenshot](/img/img%206.png)
 
 ## Deploy prepared script to specific devices via Configuration Manager as an application
-For this example, we will deploy the script to specific devices at fictional company XYZ uisng Configuration Manager. Needed settings that needs to be configured:
+For this example, we will deploy the script to specific devices at fictional company XYZ uisng Configuration Manager. Needed settings that needs to be configured are following:
 
