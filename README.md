@@ -19,6 +19,10 @@ This script is suitable for corporate environments where you might have followin
 Before you deploy this PowerShell-script, you need to do some preparations.
 
 ### Get the offline media of the "Apple Devices" -application from Microsoft Store
+> [!NOTE]
+> Make sure that you have adblocker turned on from your web browser. This is because site that we are using, shows very suspicious ads.
+>
+ 
 1. Copy this address: https://apps.microsoft.com/detail/9np83lwlpz9k?hl=en-us&gl=FI
 2. Open [this site](https://store.rg-adguard.net/). Paste the address to this site and search in RP mode.
  
