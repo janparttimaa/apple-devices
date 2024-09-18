@@ -9,7 +9,7 @@
     NOTE: You need to do some preparations before deploying this script. Please check preparation instructions from GitHub.
 
 .VERSION
-    1.0.0
+    1.0.1
 
 .AUTHOR
     Jan Parttimaa (https://github.com/janparttimaa/apple-devices)
@@ -23,6 +23,7 @@
 
 .RELEASE NOTES
     1.0.0 - Initial release
+    1.0.1 - Bug fix: removed "-Wait" parameter on installation command from row number 47.
 
 .EXAMPLE
     powershell.exe -ExecutionPolicy Bypass -File .\install.ps1
@@ -43,7 +44,7 @@ if ($AppleDevices) {
     Write-Host "Apple Devices is already installed. No need to reinstall it."
 }else {
     Write-Host "Apple Devices not installed. Installing Apple Devices..."
-    Add-AppPackage -Path $Installer -Wait -Verbose
+    Add-AppPackage -Path $Installer -Verbose
 }
 
 Start-Sleep -Seconds 10 -Verbose
@@ -63,7 +64,7 @@ if (-not (Test-Path -Path $AppicationRegistryPath)) {
 }
 
 Set-ItemProperty -Path $AppicationRegistryPath -Name "ApplicationInstalled" -Value "Yes" -Type "String" -Force -Verbose
-Set-ItemProperty -Path $AppicationRegistryPath -Name "ScriptVersion" -Value "1.0.0" -Type "String" -Force -Verbose
+Set-ItemProperty -Path $AppicationRegistryPath -Name "ScriptVersion" -Value "1.0.1" -Type "String" -Force -Verbose
 
 Start-Sleep -Seconds 10 -Verbose
 
