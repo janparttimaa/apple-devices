@@ -1,6 +1,6 @@
 > [!NOTE]  
 > This repository has been archived 10 March 2025.<br>
-> This archived repository is no longer developed and it is also set to read only mode.
+> This archived repository is no longer developed and it is also set to read-only mode.
 
 # Apple Devices
 PowerShell-script that will install "Apple Devices" -application using offline version of the installer.
