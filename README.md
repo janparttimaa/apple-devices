@@ -89,13 +89,13 @@ For this example, we will deploy the script to specific devices at fictional com
 ## Windows Update
 When opening Apple Devices-app, app from laptop on Shared PC Mode without Guest Access, you need to temporarily allow Windows Update to download iPhone/iPad-drivers. Here is the workaround:
 1. Sign in to device using your PC Admin -credentials.
-2. Download scripts AllowWindowsUpdateAccess.ps1 and BlockWindowsUpdateAccess.ps1 from GitHub.
+2. Download scripts allow_windows_update_access.ps1 and block_windows_update_access.ps1 from GitHub.
 3. Save the scripts to "C:\Temp"
 4. Open "Apple Devices" -app and connect iPhone/iPad that needs to be re-installed using USB-cord.
 5. Open PowerShell on your PC Admin -credentials and run following command inside "C:\Temp"-folder:
-   ```powershell.exe -ExecutionPolicy Bypass -File .\AllowWindowsUpdateAccess.ps1```
+   ```powershell.exe -ExecutionPolicy Bypass -File .\allow_windows_update_access.ps1```
 6. Open Windows Update from Settings and check updates. The drivers should be now downloaded and installed.
 7. When all updates have been installed, open PowerShell on your PC Admin -credentials and run following command: 
-   ```powershell.exe -ExecutionPolicy Bypass -File .\BlockWindowsUpdateAccess.ps1```
+   ```powershell.exe -ExecutionPolicy Bypass -File .\block_windows_update_access.ps1```
 8. Delete scripts from C:\Temp and Recycle Bin.
 9. You can now use "Apple Devices" -app.
