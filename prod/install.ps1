@@ -40,6 +40,7 @@ $AppleDevices = Get-AppxPackage "AppleInc.AppleDevices"
 $CorporateName = "Example Company"
 $CorporateRegistryPath = "HKCU:\Software\$CorporateName"
 $AppicationRegistryPath = "HKCU:\Software\$CorporateName\$ApplicationName"
+$ScriptVersion = "1.0.2"
 
 # Checks if Apple Devices is installed. If not, it will be installed.
 if ($AppleDevices) {
@@ -66,7 +67,7 @@ if (-not (Test-Path -Path $AppicationRegistryPath)) {
 }
 
 Set-ItemProperty -Path $AppicationRegistryPath -Name "ApplicationInstalled" -Value "Yes" -Type "String" -Force -Verbose
-Set-ItemProperty -Path $AppicationRegistryPath -Name "ScriptVersion" -Value "1.0.1" -Type "String" -Force -Verbose
+Set-ItemProperty -Path $AppicationRegistryPath -Name "ScriptVersion" -Value "$ScriptVersion" -Type "String" -Force -Verbose
 
 Start-Sleep -Seconds 10 -Verbose
 
