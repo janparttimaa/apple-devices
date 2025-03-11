@@ -9,7 +9,7 @@
     NOTE: You need to do some preparations before deploying this script. Please check preparation instructions from GitHub.
 
 .VERSION
-    1.0.1
+    1.0.2
 
 .AUTHOR
     Jan Parttimaa (https://github.com/janparttimaa/apple-devices)
@@ -23,11 +23,11 @@
 
 .RELEASE NOTES
     1.0.0 - Initial release
-    1.0.1 - Bug fix: removed "-Wait" parameter on installation command from row number 47.
+    1.0.1 - Bug fix: removed "-Wait" parameter on installation command from row number 48.
+    1.0.2 - Enhancements of the comments of the script.
 
 .EXAMPLE
     powershell.exe -ExecutionPolicy Bypass -File .\install.ps1
-
     This example is how to run this script running Windows PowerShell. This is also the command that needs to be use when deploying it via Microsoft Configuration Manager.
 #>
 
