@@ -25,7 +25,7 @@
     1.0.2 - Initial release and aligning release versio numbering with the installation script.
 
 .EXAMPLE
-    powershell.exe -ExecutionPolicy Bypass -File .\BlockWindowsUpdateAccess.ps1
+    powershell.exe -ExecutionPolicy Bypass -File .\block_windows_update_access.ps1
     This example is how to run this script running Windows PowerShell. You need to run this script with your admin rights.
 #>
 
