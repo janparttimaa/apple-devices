@@ -1,5 +1,5 @@
 > [!NOTE]  
-> This repository has been archived 10 March 2025.<br>
+> This repository has been archived 11 March 2025.<br>
 > This archived repository is no longer developed and it is also set to read-only mode.
 
 # Apple Devices
@@ -92,10 +92,10 @@ When opening Apple Devices-app, app from laptop on Shared PC Mode without Guest 
 2. Download scripts allow_windows_update_access.ps1 and block_windows_update_access.ps1 from GitHub.
 3. Save the scripts to "C:\Temp"
 4. Open "Apple Devices" -app and connect iPhone/iPad that needs to be re-installed using USB-cord.
-5. Open PowerShell on your PC Admin -credentials and run following command inside "C:\Temp"-folder:
+5. Open PowerShell on your PC Admin -credentials and run following command inside "C:\Temp"-folder:<br>
    ```powershell.exe -ExecutionPolicy Bypass -File .\allow_windows_update_access.ps1```
 6. Open Windows Update from Settings and check updates. The drivers should be now downloaded and installed.
-7. When all updates have been installed, open PowerShell on your PC Admin -credentials and run following command: 
+7. When all updates have been installed, open PowerShell on your PC Admin -credentials and run following command:<br> 
    ```powershell.exe -ExecutionPolicy Bypass -File .\block_windows_update_access.ps1```
 8. Delete scripts from C:\Temp and Recycle Bin.
 9. You can now use "Apple Devices" -app.
