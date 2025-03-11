@@ -25,7 +25,7 @@
 
 .RELEASE NOTES
     1.0.0 - Initial release
-    1.0.1 - Bug fix: removed "-Wait" parameter on installation command from row number 49.
+    1.0.1 - Bug fix: removed "-Wait" parameter on installation command from row number 50.
     1.0.2 - Enhancements of the comments of the script.
 
 .EXAMPLE
