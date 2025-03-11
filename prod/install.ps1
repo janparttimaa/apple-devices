@@ -6,6 +6,8 @@
     This PowerShell-script will install "Apple Devices" -application using offline version of the installer.
     Installation will happens per user context.
     Installed application will be updated automatically from Microsoft Store if delivering software updates is not disabled.
+    Scope of this script: Corporate environments only.
+    Platform: Windows 10 and later.
     NOTE: You need to do some preparations before deploying this script. Please check preparation instructions from GitHub.
 
 .VERSION
@@ -23,7 +25,7 @@
 
 .RELEASE NOTES
     1.0.0 - Initial release
-    1.0.1 - Bug fix: removed "-Wait" parameter on installation command from row number 48.
+    1.0.1 - Bug fix: removed "-Wait" parameter on installation command from row number 49.
     1.0.2 - Enhancements of the comments of the script.
 
 .EXAMPLE
