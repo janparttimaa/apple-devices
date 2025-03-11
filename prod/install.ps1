@@ -1,6 +1,6 @@
 ﻿<#
 .SYNOPSIS
-    Install "Apple Devices" -application
+    Install "Apple Devices" -application.
 
 .DESCRIPTION
     This PowerShell-script will install "Apple Devices" -application using offline version of the installer.
@@ -15,7 +15,7 @@
     Jan Parttimaa (https://github.com/janparttimaa/apple-devices)
 
 .COPYRIGHT
-    © 2024 Jan Parttimaa. All rights reserved.
+    © 2024-2025 Jan Parttimaa. All rights reserved.
 
 .LICENSE
     This script is licensed under the MIT License.
