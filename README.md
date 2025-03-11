@@ -100,6 +100,6 @@ When opening Apple Devices-app, app from laptop on Shared PC Mode without Guest 
 10. You can now use "Apple Devices" -app.
 
 ## Troubleshooting
-If you have problems to execute one of the published scripts, please make sure that the script is unblocked from its file properties:
+If you have problems to execute one of the published scripts, please make sure that the script is unblocked from its file properties and you have saved this change:
  
 ![Screenshot](/img/img%2020.png)
